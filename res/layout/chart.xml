@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_red"
+    android:orientation="vertical" >
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:layout_margin="20dip" >
+
+    <TextView
+       	android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    
+
+    <Button
+        android:id="@+id/button" android:background="@drawable/facebook_icon_copy"
+        android:layout_width="wrap_content" android:layout_margin=" 10dip"
+        android:layout_height="wrap_content" android:layout_gravity="right"  android:gravity="right"/>
+
+</LinearLayout>
+    <LinearLayout
+        
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/a4week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 weeks" />
+
+        <Button
+            android:id="@+id/a8week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 weeks" />
+
+        <Button
+            android:id="@+id/a4months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 months" />
+
+        <Button
+            android:id="@+id/a8months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 months" />
+
+       
+    </LinearLayout>
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/mySimpleXYPlot0"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="10px"
+        title=" Minutes" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/mySimpleXYPlot1"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="10px"
+        title="Minutes"
+        android:visibility="gone" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/mySimpleXYPlot2"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="10px"
+        title="Minutes"
+        android:visibility="gone" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/mySimpleXYPlot3"
+        android:layout_width="fill_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="10px"
+        title="Minutes"
+        android:visibility="gone" />
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/charts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/chart_white" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/settings_white" />
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/help_white" />
+    </LinearLayout>
+</LinearLayout>

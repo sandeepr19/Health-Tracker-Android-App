@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GoviralActivity!</string>
+    <string name="app_name">Goviral</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string name="health_benefit">Exercising regularly has many health benefits, including:
+• Stronger bones and muscles
+• Weight maintenance or weight loss
+• Improved mental health and mood
+• Increased chance of living longer
+• Reduced risk of cardiovascular disease, type 2 diabetes, and some
+cancers
+• Improved ability to do daily activities and prevent falls</string>
+    <string name="exercise_recommendations">The Centers for Disease Control and Prevention recommends that adults
+ages 18 and up get 150 minutes of moderate aerobic activity per week.
+What is moderate aerobic activity? It is any activity that causes you to
+raise your heart rate and break a sweat. Examples include walking briskly,
+taking a dance class, or bicycling at a medium pace.</string>
+    <string name="Tips">For beginners: Start slow and be careful not to overdo it. Use the charts
+feature to track your progress and slowly increase your activity.
+If you have health complications, talk to your doctor before beginning an
+exercise program.
+There are many ways to exercise during your day. Here are a few ideas:
+• If you drive, park further away and walk briskly to your
+destination.
+• Take the stairs instead of the elevator.
+• Walk to the next furthest bus stop or train station.
+• Ride a bicycle to work or school.</string>
+
+    <string-array name="planets_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

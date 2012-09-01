@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:src="@drawable/vital_heart_logo_text" android:layout_marginTop="10dip"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1" android:layout_margin="10dip" android:layout_gravity="center" android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Enter Age" android:textStyle="bold" android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="157dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="157dp"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/submit_icon_enter_age" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/charts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/chart_icon_black" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/settings_icon_black" />
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/help_icon_black" />
+    </LinearLayout>
+
+</LinearLayout>
